@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Dayflow",
+    "slug": "dayflow",
+    "version": "2.0.0",
+    "description": "Local-first tasks for today — projects, priorities, and backup on your device.",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "dayflow",
+    "primaryColor": "#E85D2C",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dayflow.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.dayflow.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F3EF"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F4F3EF",
+          "dark": {
+            "backgroundColor": "#0B0B0D"
+          }
+        }
+      ],
+      "expo-font",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
